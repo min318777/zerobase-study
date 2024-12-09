@@ -69,12 +69,12 @@
     </thead>
     <tbody>
     <%
-        // 파라미터로 전달된 위도와 경도 가져오기
+
         String lat = request.getParameter("latitude");
         String lon = request.getParameter("longitude");
 
         if (lat != null && lon != null) {
-            WifiInfo wifiInfo = new WifiInfo(); // Wifi 정보 처리 객체
+            WifiInfo wifiInfo = new WifiInfo();
             List<Wifi> wifiList = wifiInfo.wifiList(lat, lon);
 
             if (wifiList.isEmpty()) {

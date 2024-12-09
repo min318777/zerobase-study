@@ -89,8 +89,12 @@ public class WifiInfo {
             String lon1 = (String)tmp.get("LNT");
             String workDttm = (String)tmp.get("WORK_DTTM");
 
+
+
             Wifi wifi = new Wifi(distance, maintenanceNum, gu, name, address1, address2, floor, type, is, sv, network, year, inOut, remars3, lat1, lon1, workDttm);
             list.add(wifi);
+
+
         }
 
         return list;

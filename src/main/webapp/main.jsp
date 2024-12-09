@@ -10,8 +10,6 @@
 
 <html>
 <head>
-
-
     <title>Title</title>
     <script>
       function setCoordinates() {
